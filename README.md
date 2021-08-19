@@ -5,6 +5,9 @@ WIP discord bot written in python with various features like:
 This bot loads all API keys and token from an external .env file.
 You must create a file in the same directory as the bot.py file named .env.
 
+FOR WEATHER TO WORK PROPERLY YOU MUST DOWNLOAD city.list.json.gz FROM https://bulk.openweathermap.org/sample/ AND EXTRACT TO THE BOT MAIN DIRECTORY
+The bot uses this file to look up location id's using inputted city, state, country.
+
 HOW TO RUN THIS BOT
 
   Download as zip and extract wherever or clone the project
