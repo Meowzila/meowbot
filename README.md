@@ -1,5 +1,5 @@
 # meowbot
-WIP discord bot written in Python
+WIP discord bot written in Python to practice/test calling from APIs
 
 
 This bot loads all API keys and token from an external .env file.
@@ -14,3 +14,8 @@ Create a file in the main directory called .env with the following information:
     STEAM_API_KEY=<Your Steam Web API Key Here>
   
 You can install the required libraries in requirements.txt with: python -m pip install -r requirements.txt
+
+Some Features:
+- Save user info such as location for other commands like !weather
+- Can display weather information for most locations around the world
+- Parses opendota.com API for recent DOTA 2 games and calculates basic stats such as whether you "won" your lane or not
