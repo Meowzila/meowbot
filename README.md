@@ -1,5 +1,5 @@
 # meowbot
-WIP discord bot written in Python to practice calling JSON formatted data from external APIs and store data in database
+My first Discord chat bot written in Python to practice calling JSON data from external APIs and store data in database
 
 
 This bot loads all API keys and token from an external .env file.
@@ -25,7 +25,8 @@ Some Features:
 ![alt text](https://i.imgur.com/HFjffhN.png)
 
 - Parses opendota.com API for recent DOTA 2 games and calculates basic stats such as whether you "won" your lane or not based on the amount of gold you had at 10 minutes
-- Ex 1. You have net worth of 5k as Pos 2 at T=10min, enemy Pos 2 has 4k, you won the lane
-- Ex 2. You are Radiant Pos 1/5 against enemy Pos 3/4
+- Ex 1. You have net worth of 5k as Pos 2 while the enemy Pos 2 has 6k: you've lost the lane
+- Ex 2. You are laning Pos 1/5 against enemy Pos 3/4 and your lane has 7k gold while the enemy lane has 6k gold: you've won the lane
+- Ex 3. Your net worth is within ~500 gold of the enemy net worth: your lane is a draw
 
 ![alt text](https://i.imgur.com/s5EGm8n.png)
