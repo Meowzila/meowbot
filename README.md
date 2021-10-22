@@ -1,5 +1,5 @@
 # meowbot
-WIP discord bot written in Python to practice/test calling from APIs
+WIP discord bot written in Python to practice calling JSON formatted data from external APIs and store data in database
 
 
 This bot loads all API keys and token from an external .env file.
