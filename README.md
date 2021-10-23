@@ -1,5 +1,5 @@
 # meowbot
-My first Discord chat bot written in Python to practice calling JSON data from external APIs and store data in database
+My first Discord chat bot written in Python to practice parsing and using JSON data from external APIs and store data in database
 
 
 This bot loads all API keys and token from an external .env file.
